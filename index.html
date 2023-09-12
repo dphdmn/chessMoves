@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>How Many Moves Can You See Ahead In Chess?</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+        .main_Container {
+            display: flex;
+        }
+        .header {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .column {
+          flex: 1; /* Each column takes up an equal amount of space */
+          padding: 10px; /* Optional padding for spacing between columns */
+          border: 1px solid #ccc; /* Optional border for visual separation */
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .quote p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        p.translation {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+    <h1>How Many Moves Can You See Ahead In Chess?</h1>
+    <p class="first">In the world of chess, the question of calculating moves is frequently misunderstood, as it depends on a multitude of factors. It's a highly nuanced process. The following statements from renowned chess players showcase the diversity of their approaches to calculations in games and how they adapt their strategies based on specific game situations. These perspectives highlight that there is no one-size-fits-all rule for calculating moves in chess, and the art of chess involves deep and nuanced analysis rather than mechanical counting of millions of moves.</p>
+    <p class="translation">В мире шахмат вопрос о расчете ходов часто неправильно понимается, так как он зависит от множества факторов. Это очень тонкий процесс. В следующих высказываниях от известных шахматистов демонстрируется разнообразие их подходов к расчетам в играх и то, как они адаптируют свои стратегии в зависимости от конкретных игровых ситуаций. Эти точки зрения подчеркивают, что в шахматах нет универсального правила для расчета ходов, и искусство шахмат включает в себя глубокий и нюансированный анализ, а не механический подсчет миллионов ходов.</p>
+    </div>
+    <div class="main_Container">
+    <div class="column">
+    <div class="container">
+        <div class="quote">
+            <p><strong>Richard Réti (GM):</strong> "As a rule not a single one."</p>
+            <p class="translation">(Как правило, ни одного.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Jose Raoul Capablanca (GM):</strong> "Only one, but it's always the right one."</p>
+            <p class="translation">(Только один, но это всегда правильный ход.)</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="quote">
+            <p><strong>Anatoly Karpov (GM):</strong> "Well, a lot, of course, but you can’t do it all the time; it’s a waste of time and energy. But in critical situations, of course, you need to look five or six moves ahead. The class of a chess player is assessed not by the depth of calculation of options, but by a competent assessment of the situation. It is impossible to fully calculate everything. One chess player stops after the fourth or fifth move, others count further. But in general, a correct assessment of the situation is the main advantage of a high-class chess player."</p>
+            <p class="translation">(Ну, конечно, много, но вы не можете делать это всегда; это трата времени и энергии. Но в критических ситуациях, конечно же, нужно смотреть на пять или шесть ходов вперед. Класс шахматиста определяется не глубиной расчета вариантов, а компетентной оценкой ситуации. Невозможно полностью все рассчитать. Один шахматист останавливается после четвертого или пятого хода, другие считают дальше. Но в целом правильная оценка ситуации - это основное преимущество высококлассного шахматиста.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Bobby Fischer (GM):</strong> "If the position is forcing, I can see all the way to the end of the game, 20 moves or more.  If the position is very complicated, I might only be able to calculate 1 or 2 moves. It just depends on the position."</p>
+            <p class="translation">(Если позиция форсированная, я вижу ходы до конца партии, 20 ходов и более. Если позиция очень сложная, то могу рассчитать только 1 или 2 хода. Это зависит от позиции.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Artur Yusupov (GM):</strong> "…The beginner believes that experts can calculate dozens of moves ahead and he will lose to them only because he cannot calculate ahead so far. Yet this is utter nonsense. From my own experience I can say that grandmasters do not do an inordinate amount of calculating. Tests support me in this claim. If anything, grandmasters often consider fewer alternatives; they tend not to look at as many possible moves as weaker players do. And so, perversely, chess skill often seems to reflect the ability to avoid calculations . . ."</p>
+            <p class="translation">(…Новичок считает, что эксперты могут рассчитать десятки ходов вперед, и он проигрывает им только потому, что не может так далеко рассчитать. Но это абсолютный бред. Из моего собственного опыта могу сказать, что гроссмейстры не рассчитывают чрезмерное количество вариантов. Тесты подтверждают это. Если что-то, гроссмейстры часто рассматривают меньше альтернатив; они не смотрят на столько возможных ходов, как слабые игроки. И так, странно, шахматное мастерство часто кажется способностью избегать расчетов...)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Garry Kasparov (GM):</strong> "Normally, I would calculate three to five moves. You don't need more.... But I can go much deeper if it is required. For example, in a position involving forced moves, it's possible to look ahead as many as 12 or 14 moves (…) The main thing in chess is not how many moves ahead you think, but how you analyze the current situation"</p>
+            <p class="translation">(Обычно я рассчитываю три-пять ходов. Вам не нужно больше.... Но я могу уйти гораздо глубже, если это необходимо. Например, в позиции, включающей форсированные ходы, можно смотреть вперед на 12 или 14 ходов  (…) Главное в шахматах - не то, сколько ходов вы видите вперед, а как вы анализируете текущую ситуацию.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Viswanathan Anand (GM):</strong> "Depends on the position. We usually compare it to a tree. So, if there is a straight tree...very few branches or no branches, then you can go very, very far. So, essentially, if I have one move, you have one response. I have one response there, you have one response... I can calculate 50 or 70 moves, it does not really matter. But where it gets tricky is when I have four possibilities, you have six responses, then I have another five, that's when the tree becomes very dense, like a thicket. And there, it's difficult to see very far."</p>
+            <p class="translation">(Зависит от позиции. Мы обычно сравниваем это с деревом. Так что, если есть прямое дерево... очень мало ветвей или совсем нет, то можно уйти очень, очень далеко. Так что, суть в том, если у меня есть один ход, у вас есть один ответ. У меня есть один ответ, у вас один ответ... Я могу рассчитать 50 или 70 ходов, это не имеет значения. Но там, где дело становится сложным, это когда у меня четыре возможности, у вас шесть ответов, затем у меня еще пять, тогда дерево становится очень густым, как чаща. И там, трудно видеть очень далеко.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Magnus Carlsen (GM):</strong> "Sometimes 15 to 20 moves ahead. But the trick is evaluating the position at the end of those calculations."</p>
+            <p class="translation">(Иногда до 15-20 ходов вперед. Но хитрость заключается в оценке позиции в конце этих расчетов.)</p>
+        </div>
+    </div>
+    </div>
+    <div class="column">
+    <div class="container">
+        <div class="quote">
+            <p><strong>Hikaru Nakamura (GM):</strong> "In general, five to 10, but it depends on the situation. For example, in some games, you reach the end game early on, and you are looking at sequences or ideas that may go 20 moves down the road."</p>
+            <p class="translation">(В общем случае от пяти до десяти, но это зависит от ситуации. Например, в некоторых партиях вы можете попасть в эндшпиль рано и рассматривать последовательности или идеи, которые могут зайти на 20 ходов вперед.)</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="quote">
+            <p><strong>Sergey Karjakin (GM):</strong> "In some chess situations, it is enough to see two moves ahead to achieve success."</p>
+            <p class="translation">(В некоторых шахматных ситуациях достаточно видеть два хода вперед, чтобы добиться успеха.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Akshayraj Kore (GM):</strong> "Depends. In general when players (Grandmasters) are playing a game they are not always calculating a lot. Mostly they play on judgment and intuition which is acquired due to each player’s unique personality, practice methods and experiences. So you might be looking at a tree of 3–4 moves at any given position."</p>
+            <p class="translation">(Смотря как. В общем, когда игроки (гроссмейстеры) играют партию, они не всегда считают много. В основном они играют на основе собственной оценки и интуиции, которые приобретаются благодаря уникальной личности каждого игрока, методам тренировок и опыту. Так что вы можете рассматривать дерево из 3-4 ходов в любой позиции.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Vladislav Artemiev (GM):</strong> "It happens, of course, when we calculate a lot of moves. But constantly counting for 10 moves is very difficult. Usually plans for 3-6 moves."</p>
+            <p class="translation">(Конечно, бывает, что мы рассчитываем много ходов. Но постоянно считать на 10 ходов очень сложно. Обычно планируем на 3-6 ходов.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Chan, Kim Yew (FM):</strong> "It’s not about how much they see, but rather what they see. Strong grandmasters have a deep, well-formed understanding of the game. They are able to quickly understand which candidate moves are likely to be best in each position, then focus their efforts on calculating these moves. This allows them to find good moves quickly, with minimal effort. In most cases, the variations calculated are no longer than 3–5 moves. Compared to regular masters like me, grandmasters look slightly deeper in critical moments and are better in evaluating the positions resulting from each candidate move, allowing them to choose the best option more frequently."</p>
+            <p class="translation">(Дело не в том, сколько они видят, а в том, что они видят. Сильные гроссмейстры обладают глубоким и хорошо сформированным пониманием игры. Они могут быстро понять, какие ходы вероятно будут лучшими в каждой позиции, затем сосредотачивают усилия на расчете этих ходов. Это позволяет им быстро находить хорошие ходы с минимальными усилиями. В большинстве случаев расчетные варианты не превышают 3-5 ходов. По сравнению с обычными мастерами, как я, гроссмейстры смотрят немного глубже в критические моменты и лучше оценивают позиции, возникающие после каждого хода, что позволяет им чаще выбирать лучший вариант.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Monika Gedvilaite (WFM):</strong> "Mostly it all depends on position! If position is very complicated, then it's possible that only few moves ahead, like 5-7. And if it's the endgame and quite straight forward, then even 15 moves ahead can be seen."</p>
+            <p class="translation">(В большинстве случаев все зависит от позиции! Если позиция очень сложная, то, возможно, можно видеть только несколько ходов вперед, примерно 5-7. А если это эндшпиль и довольно прямолинейная ситуация, то даже 15 ходов вперед можно рассмотреть.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Håkon Hapnes Strand (2000+ FIDE rated):</strong> "Any experienced player knows that it’s not the number of moves you calculate that matters, but their quality."</p>
+            <p class="translation">(Любой опытный игрок знает, что не количество рассчитываемых ходов важно, а их качество.)</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quote">
+            <p><strong>Richard Yi (2000+ FIDE rated):</strong> "It depends - if the position is relatively static, players tend to spend more time forming abstract plans than calculating concrete variations, while in a tactical game (such as a sacrificial attack) with many forced moves, they can think up to 10-15 moves ahead."</p>
+            <p class="translation">(Зависит от позиции - если позиция относительно статична, игроки чаще тратят время на формирование абстрактных планов, чем на расчет конкретных вариаций, в то время как в тактической игре (например, при жертвенной атаке) с множеством принудительных ходов они могут думать до 10-15 ходов вперед.)</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
